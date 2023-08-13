@@ -642,10 +642,7 @@
         return numberRolled;
     }
     
-    export default defineEventHandler( async (event) => {
-        const {dado} = event.context.params
-        //caso code não seja um numero retorna erro
-        var resultado_final = await rollRaw(dado)
-        return resultado_final
-        }
-        )
+    export default defineEventHandler((event) => {
+        const query = getQuery(event)
+        return rollRaw(query.dice)
+      })
