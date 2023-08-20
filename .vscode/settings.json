@@ -1,3 +1,19 @@
 {
-    "nuxt.isNuxtApp": false
+    "nuxt.isNuxtApp": false,
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "129.146.33.136",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "Items Test",
+            "password": "JBJ7ZM278xCh3khy",
+            "username": "items",
+            "database": "items"
+        }
+    ]
 }

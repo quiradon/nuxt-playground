@@ -1,6 +1,5 @@
     //verifica se tem algum caractere que não deve
     const dicePattern = /^[+-]?(?:\([+-]?)*(?:(?:\d*d\d*(?:(?:km(?![^d]*(?:e|km))|k(?![^d]*(?:e|k(?:[^m]|$)))|ei(?![^d]*(?:ei|k))|e(?![^d]*(?:e(?:[^i]|$)|k))|(([<>])\2)(?![^d]*\1)|([+\-*\/%])\3)\d*)*|\d+|f\d*)\)*(?:$|[+\-*\/%](?=[\ddf(]))(?:\([+-]?)*)+$/i
-    
     //encontra dados
     const diceFinderPattern = /[\ddf](\s*(?:[\ddkeim<>]|[+\-*\/%]{2}))*/ig;
     const hasDices = /[df]/i;

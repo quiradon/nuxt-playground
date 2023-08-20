@@ -1,8 +1,4 @@
 <template>
-    <div>
-        aaaaaaaaaaaaaaaaa
-        <Nuxt />
-    </div>
 </template>
 
 <script>
